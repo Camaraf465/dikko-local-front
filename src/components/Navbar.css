@@ -1,0 +1,19 @@
+.custom-navbar {
+  background-color: #FDF6EC; /* fond beige crème */
+  border-bottom: 1px solid #e0dcd3;
+}
+
+.brand-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #2E5036; /* vert foncé du logo */
+}
+
+.nav-link-custom {
+  color: #2E5036 !important; /* texte vert */
+  font-weight: 500;
+}
+
+.nav-link-custom:hover {
+  color: #4a7c57 !important; /* vert un peu plus clair au hover */
+}

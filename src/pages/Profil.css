@@ -1,0 +1,70 @@
+.profil-page {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #3A5D3B;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profil-title {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: #F97316;
+  margin-bottom: 2rem;
+}
+
+.profil-card, .orders-card {
+  border-radius: 20px;
+  background-color: #FEF3E2; 
+  border: none;
+  padding: 1.5rem;
+}
+
+
+.orders-table th {
+  background-color: #F97316 !important;
+  color: white;
+  font-weight: 600;
+}
+
+.orders-table td, .orders-table th {
+  vertical-align: middle;
+}
+
+.orders-table tr:hover {
+  background-color: #fef3e2;
+}
+
+@media (max-width: 576px) {
+  .profil-page {
+    padding: 0 1rem;
+  }
+}
+.btn-orange {
+  background-color: #F97316;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.3rem;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #ea580c;
+}
+
+.btn-outline-orange {
+  background-color: transparent !important;
+  color: #F97316 !important;
+  border: 2px solid #F97316;
+  padding: 0.5rem 1.3rem;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-orange:hover {
+  background-color: #F97316;
+  color: white;
+}

@@ -1,0 +1,175 @@
+/* Conteneur général */
+.home-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4B2E00; /* marron foncé */
+  background-color: #FDF6EC; /* beige clair */
+  min-height: 80vh;
+}
+
+/* Section Hero */
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #F97316; /* orange vif */
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  background-color: #F97316;
+  border: none;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #D65A00;
+}
+
+/* Section Boxes phares */
+.featured-boxes {
+  margin-bottom: 3rem;
+}
+
+.featured-boxes h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #4B2E00;
+}
+
+.boxes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box-card {
+  width: 320px; /* 👈 augmente un peu la largeur */
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.box-card:hover {
+  transform: translateY(-5px);
+}
+
+.box-image {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+/* Section Nos engagements (valeurs) */
+.values {
+  background-color: #FFF4E1; /* beige clair, doux */
+  padding: 3rem 1rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 3rem auto;
+}
+
+.values h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #F97316;
+}
+
+/* Grille des cartes d’engagement */
+.values-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: nowrap; /* force sur une seule ligne */
+  overflow-x: auto; /* scroll horizontal sur petits écrans */
+  padding-bottom: 1rem;
+}
+
+/* Style des cartes valeurs */
+.value-card {
+  background-color: #F97316;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  width: 260px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0; /* empêche rétrécissement dans le flex */
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Icône dans la carte */
+.value-icon {
+  font-size: 2.5rem;
+  color: #F97316;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* Titres et paragraphes dans les cartes */
+.value-card h3 {
+  margin-bottom: 0.5rem;
+  color: #1E293B;
+}
+
+.value-card p {
+  font-size: 0.95rem;
+  color: white;
+}
+
+/* Scrollbar personnalisée (facultatif) */
+.values-grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.values-grid::-webkit-scrollbar-thumb {
+  background-color: #F97316;
+  border-radius: 3px;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .boxes-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .values-grid {
+    gap: 1.5rem;
+  }
+}
+.box-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.box-actions .btn-orange {
+  flex: 1;
+  font-size: 0.9rem;      /* 👈 un peu plus petit */
+  padding: 0.4rem 0.8rem; /* 👈 moins haut */
+  border-radius: 20px;
+}
+

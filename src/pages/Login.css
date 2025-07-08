@@ -1,0 +1,28 @@
+.login-page {
+  max-width: 400px !important;  /* réduire de 480px à 400px par exemple */
+  margin: 60px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 15px;  /* un peu de padding horizontal pour éviter que le contenu touche les bords sur petits écrans */
+}
+
+.login-card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px 20px !important; /* un peu moins de padding pour réduire encore */
+  border: none;
+}
+
+
+.btn-orange {
+  background-color: #F97316;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #ea580c;
+}

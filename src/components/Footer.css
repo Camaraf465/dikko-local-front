@@ -1,0 +1,30 @@
+.custom-footer {
+  background-color: #FDF6EC;
+  border-top: 1px solid #e0dcd3;
+  color: #2E5036;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.custom-footer a {
+  color: #2E5036;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.custom-footer a:hover {
+  color: #4a7c57;
+  text-decoration: underline;
+}
+footer {
+  
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* ou la couleur actuelle */
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+  z-index: 100;
+}

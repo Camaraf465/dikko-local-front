@@ -1,0 +1,32 @@
+.cart-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #3A5D3B;
+}
+
+.cart-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+.cart-summary h5 {
+  color: #3A5D3B;
+  font-size: 1.2rem;
+}
+
+.btn-orange {
+  background-color: #F97316 !important;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #ea580c;
+  color: white;
+}

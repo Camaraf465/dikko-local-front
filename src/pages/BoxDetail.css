@@ -1,0 +1,109 @@
+.box-detail-container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: flex-start;
+}
+
+.box-media-column {
+  flex: 1 1 350px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box-detail-image {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.box-video video {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.box-detail-info {
+  flex: 1 1 300px;
+}
+
+.box-detail-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.box-detail-description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.box-detail-price {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.btn-orange {
+  background-color: #F97316;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #ea580c;
+}
+
+.btn-orange.with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.btn-secondary-outline {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 2px solid #F97316;
+  color: #F97316;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary-outline:hover {
+  background-color: #F97316;
+  color: white;
+}
+
+.box-content h5,
+.box-video h5 {
+  margin-top: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.box-content ul {
+  padding-left: 1rem;
+  list-style: none;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.box-content ul li {
+  margin-bottom: 6px;
+}
